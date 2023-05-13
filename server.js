@@ -9,7 +9,6 @@ dotenv.config();
 // App Config
 const app = express();
 const port = process.env.PORT || 8001;
-console.log(process.env.PASSWORD);
 const uri =
   `mongodb+srv://admin:${process.env.PASSWORD}@cluster0.amwjbty.mongodb.net/?retryWrites=true&w=majority`;
 
